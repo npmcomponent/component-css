@@ -1,16 +1,14 @@
 {
   "name": "component-css",
-  "description": "DOM element css helper",
+  "description": "jquery's css()",
   "version": "0.0.5",
   "keywords": [],
-  "dependencies": {},
-  "devDependencies": {
-    "component-test2": "*"
+  "main": "index.js",
+  "dependencies": {
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "ianstormtaylor-to-camel-case": "git://github.com/npmcomponent/ianstormtaylor-to-camel-case.git",
+    "component-within-document": "git://github.com/npmcomponent/component-within-document.git"
   },
-  "license": "MIT",
-  "component": {
-    "scripts": {
-      "css/index.js": "index.js"
-    }
-  }
+  "license": "MIT"
 }
